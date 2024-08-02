@@ -4,7 +4,7 @@
 <div class="row">
   <div class="col">
      <!-- <shared-search-box [placeholder]="'Busca una capital'"(onSearch)="searchByCapital($event)" ></shared-search-box> -->
-     <shared-search-box [placeholder]="'Busca una capital'" (onDebounce)="searchByCapital($event)" ></shared-search-box>
+     <shared-search-box  [placeholder]="'Busca una capital'" [initialValue]="initialValue" (onDebounce)="searchByCapital($event)" ></shared-search-box>
   </div>
 </div>
 
